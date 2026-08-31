@@ -1,0 +1,17 @@
+# scacli 配置示例。请复制为 config.yaml 后按需修改。
+scan:
+  engine: murphysec
+  token: ""
+  murphysec: ""
+  opensca: ""
+  osv_scanner: ""
+  scan_timeout: 600
+
+git:
+  ssh_key: ""
+  user: ""
+  password: ""
+  clone_timeout: 300
+
+report:
+  output: reports

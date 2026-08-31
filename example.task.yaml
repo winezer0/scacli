@@ -1,0 +1,4 @@
+# scacli scan tasks example
+tasks:
+  - url: git@gitlab.example.com:team/example.git
+    branch: main
